@@ -1,0 +1,43 @@
+.title {
+ font-size: 30px;
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+
+.text {
+font-size: 20px;
+text-align: justify;
+margin-top: 10px;
+}
+
+
+.textAi {
+   
+  margin-top: 50px;
+  text-align: left;
+    }
+
+    .noto-sans {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+      }
+      
+
+.contentBox
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+   
+}
+
+@media screen and (max-width:836px) 
+{
+    iframe{
+        height:fit-content
+    }
+}
+

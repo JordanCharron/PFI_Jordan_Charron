@@ -1,0 +1,75 @@
+.title {
+ font-size: 45px;
+    flex: 100%;
+    order: 1;
+}
+
+.text {
+    flex: 100%;
+    order: 3;
+    font-size: 20px;
+}
+.textBox{
+    min-height: 150px;
+}
+
+.image {
+    flex: 100%;
+    order: 2;
+}
+
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+divx
+{   
+     border: 1px solid red;
+}
+.ai{
+    padding-top: 30px;
+
+}
+
+@media screen and (max-width:1200px) {
+    .col {
+        flex: 100%;
+    }
+
+    .text {
+        flex: 1;
+        order: 2;
+    }
+
+    .image {
+        flex: 1;
+        order: 3;
+    }
+}
+img{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .text {
+        flex: 100%
+    }
+
+    .image {
+        flex: 100%;
+       
+    }
+
+
+
+
+
+}
